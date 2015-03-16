@@ -1,0 +1,176 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+/* Write your CSS styles here */
+
+body { 
+  background: url(../images/body-background.jpg);
+  width: auto;
+}
+
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  color:  white;
+}
+img.displayed {
+  width: 300px;
+  height: 300px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border-radius:50% 50% 50% 50%;  
+}
+.headers {
+  clear: both;
+  color: #ff6f52; 
+  font-size: 300%;
+  margin: 20px;
+  text-align: center;
+  
+}
+
+div#nav-mobile { 
+  background-color: inherit;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+div#nav-mobile ul {
+  display: table;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+}
+div#nav-mobile li {
+  display: inline;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+div#nav-mobile li a {
+  text-decoration: none;
+  color: #729db1;
+  font-weight: bold
+  
+}
+
+#contact {
+    background-color: inherit;
+  padding-bottom: 20px;
+
+}
+
+#soc-med-2 ul li .fa {
+  color: #ff6f52;
+}
+
+#soc-med-2 ul li {
+  display: inline;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+#soc-med-2 ul {
+    text-align: center;
+  }
+div#skills {
+    background-color: inherit;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  margin-bottom: 1%;
+  overflow: auto;
+  
+}
+
+.skills-icons {
+  float: left;
+  margin: 1%;
+  text-align: center;
+  font-size: 4em;
+  color: #ff6f52;
+}
+
+.icon-text {
+ font-size: large;
+ color: black;
+ opacity: .5;
+}
+
+footer {
+  padding-top: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bar {
+    background-color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+
+.bar p {
+  font-size: larger;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+}
+
